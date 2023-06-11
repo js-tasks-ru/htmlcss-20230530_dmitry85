@@ -1,1 +1,44 @@
-/* Стилизация аккордеона */
+.accordion__summary::-webkit-details-marker {  /* нестандартный псевдоэлемент Google Chrome */
+    display: none;
+    /* не работает, как был секционный разворачиватель треугольником так и остался*/
+}
+
+.header {
+    text-align: center;
+    padding: 1em;
+}
+
+.main__accordion {
+    margin-left: 38%;
+}
+
+
+.accordion {
+    display: block;
+    width: 50%;
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+
+    border: 1px solid #ACB5BD;
+    border-radius: 8px;
+    padding: 0.33em 0;
+    margin-bottom: 0.33em;
+}
+
+.accordion:last-child {
+    margin-bottom: 0;
+}
+
+.accordion__summary {
+    color: #212429;
+    padding: 0.67em 1.33em;
+}
+
+.accordion__item {
+    color: #495057;
+    padding: 0 2.33em;
+}
+
