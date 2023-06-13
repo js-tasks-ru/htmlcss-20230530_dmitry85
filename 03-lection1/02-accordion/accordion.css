@@ -3,18 +3,12 @@
     /* не работает, как был секционный разворачиватель треугольником так и остался*/
 }
 
-.header {
-    text-align: center;
-    padding: 1em;
-}
-
 .main__accordion {
     margin-left: 38%;
 }
 
 
 .accordion {
-    display: block;
     width: 50%;
     font-family: 'Inter', sans-serif;
     font-style: normal;
@@ -24,8 +18,15 @@
 
     border: 1px solid var(--grey-3);
     border-radius: 8px;
-    padding: 0.33em 0;
-    margin-bottom: 0.33em;
+    padding: 8px 0;
+    margin-bottom: 8px;
+}
+
+.accordion_content {
+    border: 1px solid var(--grey-3);
+    border-radius: 8px;
+    padding: 8px 0;
+    margin-bottom: 8px;
 }
 
 .accordion:last-child {
@@ -34,11 +35,11 @@
 
 .accordion__summary {
     color: var(--black);
-    padding: 0.67em 1.33em;
+    /*padding: 16em 32px;*/
 }
 
-.accordion__item {
+.accordion__text {
     color: var(--grey-4);
-    padding: 0 2.33em;
+    padding: 0 56px;
 }
 
