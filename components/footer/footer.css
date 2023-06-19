@@ -1,0 +1,33 @@
+.footer {
+    padding-top: 72px;
+    border-top: 1px solid var(--grey-2);
+}
+
+.footer__title {
+    display: inline-block;
+    margin-left: 682px;
+    margin-right: 647px;
+    width: 111px;
+
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 38px;
+    line-height: 48px;
+    color: var(--black)
+}
+
+.footer__description {
+    margin: 32px 383px 136px 417px;
+    width:640px;
+
+    font-family: 'Inter',sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: center;
+
+    color: var(--black);
+
+}
