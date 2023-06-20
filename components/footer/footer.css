@@ -7,7 +7,7 @@
 
 .footer__title {
     display: inline-block;
-    margin-top: 71px;
+    padding-top: 71px;
     font-family: 'Inter', sans-serif;
     font-style: normal;
     font-weight: 500;
@@ -17,7 +17,7 @@
 }
 
 .footer__description {
-    margin: 32px 257px 136px;
+    padding: 32px 257px 136px;
     font-family: 'Inter',sans-serif;
     font-style: normal;
     font-weight: 400;
