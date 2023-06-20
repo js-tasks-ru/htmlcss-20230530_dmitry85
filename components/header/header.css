@@ -1,7 +1,6 @@
 .header {
     background-color: var(--white);
     padding: 86px 0 77px;
-    padding-left: 160px;
     border-bottom: 1px solid var(--grey-2);
 }
 
