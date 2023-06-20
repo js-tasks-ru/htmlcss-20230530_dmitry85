@@ -1,14 +1,13 @@
+ /*71 32 136*/
 .footer {
-    padding-top: 72px;
+    /*padding: 72px 257px 136px;*/
     border-top: 1px solid var(--grey-2);
+    text-align: center;
 }
 
 .footer__title {
     display: inline-block;
-    margin-left: 682px;
-    margin-right: 647px;
-    width: 111px;
-
+    margin-top: 71px;
     font-family: 'Inter', sans-serif;
     font-style: normal;
     font-weight: 500;
@@ -18,9 +17,7 @@
 }
 
 .footer__description {
-    margin: 32px 383px 136px 417px;
-    width:640px;
-
+    margin: 32px 257px 136px;
     font-family: 'Inter',sans-serif;
     font-style: normal;
     font-weight: 400;
