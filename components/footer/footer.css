@@ -1,13 +1,13 @@
- /*71 32 136*/
 .footer {
-    /*padding: 72px 257px 136px;*/
     border-top: 1px solid var(--grey-2);
     text-align: center;
+    padding-top: 71px;
+    padding-bottom: 136px;
 }
 
 .footer__title {
     display: inline-block;
-    padding-top: 71px;
+
     font-family: 'Inter', sans-serif;
     font-style: normal;
     font-weight: 500;
@@ -17,7 +17,8 @@
 }
 
 .footer__description {
-    padding: 32px 257px 136px;
+    max-width: 640px;
+    margin: 32px auto;
     font-family: 'Inter',sans-serif;
     font-style: normal;
     font-weight: 400;
