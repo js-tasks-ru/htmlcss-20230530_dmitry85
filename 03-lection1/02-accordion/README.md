@@ -22,11 +22,11 @@ figma: [https://www.figma.com/file/LavZmQfQccqyrTMzoSJYNu/csscourse1?node-id=171
     ```
 3. Между пунктами в аккордеоне есть внешние отступы, но у последнего пункта отступа вниз быть не должно. Решение этой проблемы может выглядеть так:
     ```css
-    .accordion__item {
+    .accordion__text {
         margin-bottom: 8px;
     }
 
-    .accordion__item:last-child {
+    .accordion__text:last-child {
         margin-bottom: 0;
     }
     ```

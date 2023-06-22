@@ -2,17 +2,41 @@
 <!-- Страница с аккордеоном -->
 <html lang="ru">
     <head>
+        <meta charset="utf-8">
+        <title>Test</title>
+        <link rel="stylesheet" href="../../assets/css/mini-reset.css">
         <link rel="stylesheet" href="../../assets/css/main.css">
         <link rel="stylesheet" href="./accordion.css">
     </head>
     <body>
-        <details>
-            <summary>
-                Accordion item
-            </summary>
-            <p>
-                Hidden content
-            </p>
-        </details>
+        <div class="accordion">
+            <details class="accordion__section">
+                <summary class="accordion__summary">Озеленение территории</summary>
+                <div class="accordion__content">
+                    <p class="accordion__text">Завоз грунта</p>
+                    <p class="accordion__text">Посадка деревьев</p>
+                    <p class="accordion__text">Травяное покрытие</p>
+                </div>
+            </details>
+            <details class="accordion__section">
+                <summary class="accordion__summary">Дорожки</summary>
+                <div class="accordion__content">
+                    <p class="accordion__text">Бульдозерные работы</p>
+                    <p class="accordion__text">Установка бордюров</p>
+                    <p class="accordion__text">Дорожки пешеходные</p>
+                    <p class="accordion__text">Дорожки для велосипедистов</p>
+                </div>
+            </details>
+            <details class="accordion__section">
+                <summary class="accordion__summary">Детская площадка</summary>
+                <div class="accordion__content">
+                    <p class="accordion__text">Качели</p>
+                    <p class="accordion__text">Беседка</p>
+                    <p class="accordion__text">Футбольная площадка</p>
+                    <p class="accordion__text">Турники</p>
+                </div>
+            </details>
+        </div>
+
     </body>
 </html>
