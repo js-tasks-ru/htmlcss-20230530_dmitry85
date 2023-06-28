@@ -1,8 +1,6 @@
 .skeleton {
 
-    width: 579px;
-    /*height: 192px;*/
-    height: fit-content;
+    width: fit-content;
     padding: 24px 40px 32px 24px;
 
     display: flex;
