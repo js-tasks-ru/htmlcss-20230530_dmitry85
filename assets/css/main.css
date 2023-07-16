@@ -2,9 +2,10 @@
 @import '../normalize/normalize.css';
 @import '../../components/page/page.css';
 @import '../../components/header/header.css';
-@import '../../components/main/main.css';
+@import '../../components/preview/preview.css';
 @import '../../components/footer/footer.css';
 @import '../../components/container/container.css';
+@import '../../components/card/card.css';
 
 :root {
     --white: #ffffff;
@@ -27,8 +28,9 @@
     --secondary-hover: #5028C6;
 }
 
-body {
+body, html {
     font-family: 'Roboto', sans-serif;
+    height: 100vh;
 }
 
 
