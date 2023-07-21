@@ -1,6 +1,6 @@
 .histogram {
     padding: 16px 24px 24px;
-    width: fit-content;
+    width: 100%;
     font-family: 'Inter', sans-serif;
     font-style: normal;
     font-weight: 400;
@@ -44,7 +44,7 @@
     align-items: flex-end;
     column-gap: 1px;
     height: 50px;
-    width: 306px;
+    width: 100%;
     margin-top: 39px;
 }
 .histogram__stripe-element {
